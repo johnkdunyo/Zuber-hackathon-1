@@ -23,7 +23,7 @@ function getStudents(): array
 // Example a student at the first index: 0 should have a position field with value 1, and a student at the third index: 2 should have a position field with value 3
 function sortStudents(array $students): array
 {
-    $sortedArray =array();
+    $sortArray =array();
     foreach($students as $student){ 
         foreach($student as $key=>$value){ 
             if(!isset($sortArray[$key])){ 
